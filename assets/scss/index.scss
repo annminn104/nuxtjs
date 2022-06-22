@@ -1,0 +1,43 @@
+.layout {
+  &_content {
+    background-color: #ffffff;
+    min-height: calc(100vh - 64px - 69px);
+  }
+}
+.list-card {
+  padding: 20px 70px;
+  .card {
+    cursor: pointer;
+    padding-bottom: 20px;
+    img {
+      border-radius: 5px;
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        transform: scale(1.01);
+        transition: all 0.8s ease-in-out;
+      }
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    &_continent {
+      text-align: center;
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+}
+.mountain-detail {
+  padding: 20px 70px;
+  width: 100%;
+  min-height: calc(100vh - 64px - 69px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-size: 18px;
+  h1 {
+    font-size: 35px;
+    color: #c2ffc0;
+  }
+}
